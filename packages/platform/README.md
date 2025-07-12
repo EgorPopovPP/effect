@@ -1626,8 +1626,8 @@ To set a security cookie from within a handler, you can use the `HttpApiBuilder.
 // Define the security configuration for an API key stored in a cookie
 const security = HttpApiSecurity.apiKey({
    // Specify that the API key is stored in a cookie
-  in: "cookie"
-   // Define the cookie name,
+  in: "cookie",
+   // Define the cookie name
   key: "token"
 })
 
